@@ -1,9 +1,29 @@
-
-
-h2 {
-    display: inline-block;
-    float: left;
+/*
+Importante resetear los estilos por defecto de el navegador
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-em {
-    display: inline-block;
+
+/* 
+El css nos sirve en principio para agregar los estilos globales para todo nuestro sitio, como 
+- tipografia
+- colores base
+- medidas en pixeles y em, rem, etc. 
+*/
+body {
+  font-family: "Orbitron", sans-serif;
+  background: #f2f2f2;
+}
+
+/* Cambio la tipografia de los headings, recuerden que la agregue en el HEAD de el html  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
 }

@@ -3,28 +3,86 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>contactos</title>
+    <title>Contacto</title>
+
+    <!-- estilos css -->
     <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- Tipografía -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <!-- header -->
     <header>
+      <!-- Navegación -->
       <nav>
-        <!-- <span>logo</span> -->
+        <!-- Logo -->
+        <a href=""
+          ><img
+            src="https://images.unsplash.com/photo-1776695799247-b15851a1aa2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg5OTEyNTR8&ixlib=rb-4.1.0&q=80&w=400"
+            width="24"
+            alt="paisaje de lagos y montañas"
+        /></a>
         <ul>
           <li>
-            <a href="#">home</a>
+            <a href="../index.html">home</a>
           </li>
           <li>
-            <a href="./pages/about.html">About - sobre nosotros</a>
+            <a href="./about.html">About - sobre nosotros</a>
           </li>
           <li>
-            <a href="./pages/products.html">Productos</a>
+            <a href="./products.html">Productos</a>
           </li>
           <li>
-            <a href="./pages/contact.html">Contacto</a>
+            <a href="./contact.html">Contacto</a>
           </li>
         </ul>
       </nav>
     </header>
+    <!-- Fin del HEader -->
+    <main>
+      <section>
+        <!-- Puede ser un H1 -->
+        <h2>contacto</h2>
+        <div>
+          <form>
+            <input type="text" name="nombre" placeholder="Nombre" />
+            <input type="text" name="apellido" placeholder="Apellido" />
+            <input type="tel" name="telefono" placeholder="Telefono" />
+            <input type="email" name="email" placeholder="Correo electronico" />
+            <textarea
+              name="mensake"
+              cols="80"
+              rows="12"
+              placeholder="Mensaje"
+            ></textarea>
+            <input type="submit" value="enviar" />
+          </form>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi
+            voluptatibus voluptatem provident labore ex est illum asperiores
+            sunt eligendi consequatur assumenda, rem at saepe facilis modi.
+            Accusantium repellendus cumque eum!
+          </p>
+
+          <!-- Aqui deberin ir iconos para direccion, telefono y formas de contato y ubicacion de la tienda fisica -->
+          <p><span>icono</span> direccion</p>
+          <p><span>icono</span> direccion</p>
+          <p><span>icono</span> direccion</p>
+          <p><span>icono</span> direccion</p>
+          <p><span>icono</span> direccion</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- Agreguen alfo aqui -->
+    </footer>
   </body>
 </html>
