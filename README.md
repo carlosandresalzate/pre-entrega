@@ -1,11 +1,11 @@
 # Importante
 
-Esta es la descripcion del sitio, como usarlo, que tecnologias esta usando y cosas asi-
-es info para otros desarrolladores o personas que usen nuestro codigo.
+Esta es la descripción del sitio, como usarlo, que tecnologías está usando y cosas asi.
+Ademas es información para otros desarrolladores o personas que usen nuestro codigo.
 
-## Licensia
+## Licencia
 
-se debe agregar un archivo LICENCE que debe tener la licencia y estar linkeado a este README
+se debe agregar un archivo LICENCE, el cual debe tener la licencia y estar linkeado a este README
 
 ---
 
